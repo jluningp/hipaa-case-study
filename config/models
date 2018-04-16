@@ -1,0 +1,21 @@
+User
+   email String
+   password String Maybe
+   verkey String Maybe
+   verified Bool
+   UniqueUser email
+   deriving Typeable
+Email
+   email String
+   userId UserId Maybe
+   verkey String Maybe
+   UniqueEmail email
+Documents
+   userID String
+   type String
+   consentID Int
+   document String
+Consent
+   consentID Int
+   permittedUser String
+   type String

@@ -1,0 +1,17 @@
+<center><h1>Medical Document Query System</h1></center>
+<div .main>
+              <div>
+                $if loggedIn
+                    You are signed in as a doctor or medical professional.
+
+                    Your email: #{email}
+
+                $else
+                        Click Log In to log in.
+<div .sidebar>
+                <a href=@{link}>
+                   <div .links>
+                        Log In
+                <a href=@{SearchR}>
+                    <div .links>
+                        Search Documents

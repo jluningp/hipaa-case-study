@@ -1,0 +1,18 @@
+<h1> Profile
+<form method=post action=@{(UpdatePersonR personId)}>
+        <p>
+                Name: #{name}
+        <p>
+                Email: #{email}
+        <p>
+                Address: #{number} #{street}
+        $if canEdit
+            <p>
+                    Update your information:
+            <p>
+                    ^{widget}
+            <p>
+                   <button>Update Details
+        $else
+        
+<a href=@{HomeR}>Back to Home

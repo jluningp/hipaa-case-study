@@ -1,0 +1,6 @@
+h1 { color: green; }
+.main { display: block; width: 70%; float: right; }
+.sidebar { display: block; float: left; height: 500px; background-color: #e6e6e6; padding: 1em; width: 25%; }
+.links {background-color: green; text-align: center; color: white; padding: 1em; margin-bottom: 1em; }
+.people {  padding: 1em; }
+                  

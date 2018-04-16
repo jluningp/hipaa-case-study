@@ -1,0 +1,5 @@
+<p>_{Msg.EnterEmail}
+<form method="post" action="@{toParentRoute registerR}" enctype=#{enctype}>
+    <div id="registerForm">
+        ^{widget}
+    <button .btn>_{Msg.Register} 
