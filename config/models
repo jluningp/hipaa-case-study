@@ -15,6 +15,7 @@ Documents
    type String
    consentID Int
    document String
+   deriving Show
 Consent
    consentID Int
    permittedUser String

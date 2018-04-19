@@ -1,2 +1,7 @@
 <h1> Search Documents </h1>
+<p>
+        Type a keyword to search.
+        <form method=post action=@{SearchR} enctype=#{enctype}>
+              ^{widget}
+              <button>Submit
 <a href=@{HomeR}>Back to Home

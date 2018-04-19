@@ -6,6 +6,6 @@
 
 / HomeR GET
 
-/search SearchR GET
+/search SearchR GET POST
 
 /confirm-link/#String ConfirmLinkR GET

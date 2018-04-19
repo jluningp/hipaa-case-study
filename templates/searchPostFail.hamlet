@@ -1,0 +1,4 @@
+<p>Invalid input, let's try again.
+<form method=post action=@{SearchR} enctype=#{enctype}>
+      ^{widget}
+<button>Submit
